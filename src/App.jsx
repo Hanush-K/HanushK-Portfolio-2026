@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Navbar from './components/Navbar'
 import ProfileImage from './components/ProfileImage'
 import Hero from './components/Hero'
@@ -33,6 +34,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <SpeedInsights />
     </div>
   )
 }
